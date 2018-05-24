@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-// import PostList from './components/PostList'
-// import FormWrapper from './shoukong/FormWrapper'
-// import FormCheckbox from './shoukong/FormCheckbox'
-import SimpleForm from './feishoukong/SimpleForm'
+import UserListContainer from './demo/UserListContainer'
 
 class App extends Component {
   handleClick(e) {
@@ -19,7 +16,8 @@ class App extends Component {
         {/* <PostList /> */}
         {/* <FormWrapper /> */}
         {/* <FormCheckbox /> */}
-        <SimpleForm />
+        {/* <SimpleForm /> */}
+        {/* <UserListContainer /> */}
       </div>
     )
   }
